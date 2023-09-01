@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.toolbar{
+    margin: 12px auto 12px auto;    
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.toolbar div{
+    font-weight: bold;
 }
-
-.App-link {
-  color: #61dafb;
+.mainButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mainButton button{
+    margin-top: -10px;
+    margin-bottom: 10px;
+    padding: 7px 12px;
+    font-size: .9rem;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightblue;
+}
+.mainCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: min-content;
+    border-radius:10px;
+    border: thin lightblue solid;
+}
+.mainButton2 button{
+    margin-top: -10px;
+    margin-bottom: 10px;
+    padding: 7px 12px;
+    font-size: .9rem;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(187, 18, 18);
+}
+.footerNew{
+    display: flex;
+    position:fixed;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: large;
+    margin-top: 10px;
+    background-color: lightblue;
+    height: 50px;
+    width: 100%;
 }
