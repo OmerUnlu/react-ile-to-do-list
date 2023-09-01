@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-ile-to-do-list/static/css/main.d15589ca.css",
+    "main.js": "/react-ile-to-do-list/static/js/main.4a21c606.js",
+    "index.html": "/react-ile-to-do-list/index.html",
+    "main.d15589ca.css.map": "/react-ile-to-do-list/static/css/main.d15589ca.css.map",
+    "main.4a21c606.js.map": "/react-ile-to-do-list/static/js/main.4a21c606.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d15589ca.css",
+    "static/js/main.4a21c606.js"
+  ]
+}
